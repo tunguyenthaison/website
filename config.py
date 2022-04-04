@@ -14,3 +14,23 @@ title = "Thai-Son Tu"
 
 # Site tagline.
 tagline = "Từ Nguyễn Thái Sơn"
+
+
+
+markdown_settings = {
+    'extensions': [
+        # 'markdown.extensions.fenced_code',
+        # comments,
+        'codehilite',
+        'pymdownx.progressbar',
+        'markdown_katex',
+        'pymdownx.superfences',
+        'markdown.extensions.extra', 
+        # 'markdown.extensions.md_in_html',
+        'markdown.extensions.sane_lists',
+
+        # 'markdown_captions',
+        # 'attr_list', # optional
+        # 'mkdcomments',
+    ],
+}

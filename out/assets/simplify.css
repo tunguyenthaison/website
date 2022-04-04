@@ -43,6 +43,10 @@ imgage.avatar {
     width: 100%;
 }
 
+.katex { 
+    font-size: 1em  !important; 
+}
+
 
 /**
  * -------------------------------------------------------------------------
@@ -99,6 +103,11 @@ p {
     margin: 10px 0 0 0;
     padding: 0;
     overflow-wrap: break-word;
+}
+
+li > p {
+    margin: 0 0 0 0;
+    padding: 0;
 }
 
 blockquote {
