@@ -2,19 +2,20 @@
 title: Research
 ---
 
-I am interested in Partial Differential Equations. In particular, I am working on problems related to Hamilton-Jacobi equation. I am recently interested in applied probability, statistics, and machine learning, especially the mathematical foundations to data analysis and machine learning algorithms.
+I am interested in Partial Differential Equations. In particular, I am working on problems related to Hamilton-Jacobi equation. I am recently interested in applied probability, statistics, and machine learning, especially the mathematical foundations to data analysis and machine learning.
 
 ## Preprints and Publications
 
 * (with Yuxi Han)
-Remarks on the vanishing viscosity process of state-constraint Hamilton-Jacobi equations, To appear in Applied Mathematics & Optimization.
+Remarks on the vanishing viscosity process of state-constraint Hamilton-Jacobi equations, *to appear in Applied Mathematics & Optimization*.
  
-* Vanishing discount problems for Hamilton--Jacobi equations on changing domains, Journal of Differential Equations
+* Vanishing discount problems for Hamilton--Jacobi equations on changing domains, *Journal of Differential Equations*.
   
 * (with Yeoneung Kim and Hung V. Tran)
-State-constraint static Hamilton-Jacobi equations in nested domains, SIAM journal on Mathematical Analysis
+State-constraint static Hamilton-Jacobi equations in nested domains, *SIAM journal on Mathematical Analysis*.
   
-* Rate of convergence for periodic homogenization of convex Hamilton-Jacobi equations in one dimension, Asymptotic Analysis.
+* Rate of convergence for periodic homogenization of convex Hamilton-Jacobi equations in one dimension, *Asymptotic Analysis*.
+
 
 ## Talks and Presentations
 
