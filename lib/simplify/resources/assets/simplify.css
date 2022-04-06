@@ -8,9 +8,37 @@
     box-sizing: inherit;
 }
 
-#half50 {
+
+.wrapper {
+    display: flex;
+    /* If I can't fit my children on one line at the size they want to be, wrap onto a new line */
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.contact {
+    min-width: 200px;
+    flex-grow: 1;
+}
+
+.half50 {
     width: 50%;
+    /* Grow at a rate of 1 if there is room for me to do so!*/
+    flex-grow: 1;
     display: table-cell;
+    height: fit-content;
+    align-content: flex-end;
+}
+
+div.image {
+    min-width: 200px;
+    flex-grow: 1;
+}
+
+div.image > p > img {
+    margin: 0;
+    width: 100%;
+    height: auto;
 }
 
 html {
@@ -38,7 +66,6 @@ button, input, select, textarea, label {
 }
 
 img {
-    
     border: 0;
     max-width: 100%;
 }

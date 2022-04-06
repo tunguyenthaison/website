@@ -33,13 +33,13 @@ in using these skill sets to solve real world problems.[^1]
 
 ## Publications and preprints
 
-* (with Yuxi Han) Remarks on the vanishing viscosity process of state-constraint Hamilton-Jacobi equations, *to appear in Applied Mathematics & Optimization* -- [arXiv](#https://arxiv.org/abs/2107.09860).
+* (with Yuxi Han) Remarks on the vanishing viscosity process of state-constraint Hamilton-Jacobi equations, *to appear in Applied Mathematics & Optimization* -- [arXiv](https://arxiv.org/abs/2107.09860).
 
-* Vanishing discount problems for Hamilton-Jacobi equations on changing domains, *Journal of Differential Equations* -- [arXiv](#https://arxiv.org/abs/2006.15800).
+* Vanishing discount problems for Hamilton-Jacobi equations on changing domains, *Journal of Differential Equations* -- [arXiv](https://arxiv.org/abs/2006.15800).
 
-* (with Yeoneung Kim and Hung V. Tran) State-constraint static Hamilton-Jacobi equations in nested domains, *SIAM Journal on Mathematical Analysis* -- [arXiv](#https://arxiv.org/pdf/1906.11222).
+* (with Yeoneung Kim and Hung V. Tran) State-constraint static Hamilton-Jacobi equations in nested domains, *SIAM Journal on Mathematical Analysis* -- [arXiv](https://arxiv.org/pdf/1906.11222).
 
-* Rate of convergence for periodic homogenization of convex Hamilton-Jacobi equations in one dimension, *Asymptotic Analysis* -- [arXiv](#https://arxiv.org/abs/1808.06129).
+* Rate of convergence for periodic homogenization of convex Hamilton-Jacobi equations in one dimension, *Asymptotic Analysis* -- [arXiv](https://arxiv.org/abs/1808.06129).
 
 ::: footnote 1
 
@@ -47,15 +47,16 @@ in using these skill sets to solve real world problems.[^1]
 
 ::: hr
 
-     
-:div .half #half50
-    ## CONTACT INFORMATION 
+::: div .wrapper
+
+    :div .half50 .contact
+        ### CONTACT INFORMATION
         Department of Mathematics <br>
         University of Wisconsin - Madison <br>		
         Madison, WI  53706. <br>
-        <strong>Office:</strong> 822 Van Vleck Hall, 480 Lincoln Drive. <br>
-        <strong>E-mail:</strong> `thaison@math.wisc.edu` <br>        
- 
-:div .half #half50
-    <img src="/base/wave2.gif" width=50% alt="An example of solution to Hamilton-Jacobi equation">
-
+        822 Van Vleck Hall, 480 Lincoln Drive. <br>
+        <strong>E-mail:</strong> `thaison@math.wisc.edu` <br>
+    
+    :div .half50 .image
+        ![wave2](@root/base/wave2.gif)
+::: end
