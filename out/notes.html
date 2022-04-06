@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Thai-Son Tu</title>
+        <title>Notes</title>
         <link rel="stylesheet" href="assets/fonts.css">
         <link rel="stylesheet" href="assets/simplify.css">
         <link rel="stylesheet" href="assets/pygments.css">
@@ -37,310 +37,79 @@
         </header>
         <article class="main">
             <header class="title">
-                <h1></h1>
+                <h1>Notes</h1>
+                
+                    <p class="subtitle">A collection of notes taken during my journey.</p>
                 
                 <hr>
             </header>
-            <!DOCTYPE html>
-<!-- saved from url=(0043)https://people.math.wisc.edu/~thaison/note# -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Son Tu</title>
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="./notes_files/main.css">
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!-- Latex%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-		<script type="text/x-mathjax-config;executed=true">
- 			 MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-		</script>
-		<script data-cfasync="false" src="./notes_files/MathJax.js.download"></script>
-		<!-- <script data-cfasync="false" src="https://cdn.mathjax.org/mathjax/latest/extensions/TeX/AMSmath.js"></script> -->
-		<!--<script type="text/javascript"
-  				src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-		</script> -->
-		<!-- Latex%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-		<link rel="icon" type="image/png" href="https://people.math.wisc.edu/~thaison/images/favicon.ico">
-		
-		
-		<!-- For bootstrap collapse 
-				<meta name="viewport" content="width=device-width, initial-scale=1">
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<!-- For bootstrap collapse -->
-		
+            <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css"
+  integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs"
+  crossorigin="anonymous" />
 
-		
-	<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
-.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
-.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
-.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
-.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
-</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
-#MathJax_About.MathJax_MousePost {outline: none}
-.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
-.MathJax_MenuItem {padding: 2px 2em; background: transparent}
-.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
-.MathJax_MenuActive .MathJax_MenuArrow {color: white}
-.MathJax_MenuArrow.RTL {left: .5em; right: auto}
-.MathJax_MenuCheck {position: absolute; left: .7em}
-.MathJax_MenuCheck.RTL {right: .7em; left: auto}
-.MathJax_MenuRadioCheck {position: absolute; left: 1em}
-.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
-.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
-.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
-.MathJax_MenuDisabled {color: GrayText}
-.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
-.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
-.MathJax_ContextMenu:focus {outline: none}
-.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
-#MathJax_AboutClose {top: .2em; right: .2em}
-.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
-.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
-.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
-.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
-.MathJax_MenuClose:hover span {background-color: #CCC!important}
-.MathJax_MenuClose:hover:focus {outline: none}
-</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
-</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
-.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
-</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
-#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
-#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
-#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
-</style><style type="text/css">.MathJax_Preview {color: #888}
-#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
-#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
-.MathJax_Error {color: #CC0000; font-style: italic}
-</style><style type="text/css">.MJXp-script {font-size: .8em}
-.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
-.MJXp-bold {font-weight: bold}
-.MJXp-italic {font-style: italic}
-.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
-.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
-.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
-.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
-.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
-.MJXp-largeop {font-size: 150%}
-.MJXp-largeop.MJXp-int {vertical-align: -.2em}
-.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
-.MJXp-display {display: block; text-align: center; margin: 1em 0}
-.MJXp-math span {display: inline-block}
-.MJXp-box {display: block!important; text-align: center}
-.MJXp-box:after {content: " "}
-.MJXp-rule {display: block!important; margin-top: .1em}
-.MJXp-char {display: block!important}
-.MJXp-mo {margin: 0 .15em}
-.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
-.MJXp-denom {display: inline-table!important; width: 100%}
-.MJXp-denom > * {display: table-row!important}
-.MJXp-surd {vertical-align: top}
-.MJXp-surd > * {display: block!important}
-.MJXp-script-box > *  {display: table!important; height: 50%}
-.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
-.MJXp-script-box > *:last-child > * {vertical-align: bottom}
-.MJXp-script-box > * > * > * {display: block!important}
-.MJXp-mphantom {visibility: hidden}
-.MJXp-munderover {display: inline-table!important}
-.MJXp-over {display: inline-block!important; text-align: center}
-.MJXp-over > * {display: block!important}
-.MJXp-munderover > * {display: table-row!important}
-.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
-.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
-.MJXp-mtr {display: table-row!important}
-.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
-.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
-.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
-.MJXp-mlabeledtr {display: table-row!important}
-.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
-.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
-.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
-.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
-.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
-.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
-.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
-.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
-.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
-.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
-.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
-.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
-.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
-.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
-</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
-.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
-.MathJax .MJX-monospace {font-family: monospace}
-.MathJax .MJX-sans-serif {font-family: sans-serif}
-#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
-.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
-.MathJax:focus, body :focus .MathJax {display: inline-table}
-.MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
-.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
-img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
-.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
-.MathJax nobr {white-space: nowrap!important}
-.MathJax img {display: inline!important; float: none!important}
-.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
-.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
-.MathJax_Processed {display: none!important}
-.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
-.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
-.MathJax_LineBox {display: table!important}
-.MathJax_LineBox span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
-.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
-.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
-#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
-@font-face {font-family: MathJax_Main; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff?V=2.7.2') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf?V=2.7.2') format('opentype')}
-@font-face {font-family: MathJax_Main-bold; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff?V=2.7.2') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf?V=2.7.2') format('opentype')}
-@font-face {font-family: MathJax_Main-italic; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff?V=2.7.2') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf?V=2.7.2') format('opentype')}
-@font-face {font-family: MathJax_Math-italic; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff?V=2.7.2') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf?V=2.7.2') format('opentype')}
-@font-face {font-family: MathJax_Caligraphic; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff?V=2.7.2') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf?V=2.7.2') format('opentype')}
-@font-face {font-family: MathJax_Size1; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff?V=2.7.2') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf?V=2.7.2') format('opentype')}
-@font-face {font-family: MathJax_Size2; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff?V=2.7.2') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf?V=2.7.2') format('opentype')}
-@font-face {font-family: MathJax_Size3; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff?V=2.7.2') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf?V=2.7.2') format('opentype')}
-@font-face {font-family: MathJax_Size4; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff?V=2.7.2') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf?V=2.7.2') format('opentype')}
-.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
-</style><style type="text/css">@font-face {font-family: MathJax_AMS; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff?V=2.7.2') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf?V=2.7.2') format('opentype')}
-</style></head>
-	<body id="top" class="" data-new-gr-c-s-check-loaded="14.1055.0" data-gr-ext-installed=""><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+<style type="text/css">
+    .katex img {
+      object-fit: fill;
+      padding: unset;
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: inherit;
+    }
+</style>
+<!-- ## Selected Notes -->
 
-		<!-- Header -->
-			<header id="header" style="background-position: left top, center center;">
-				<a href="https://people.math.wisc.edu/~thaison/note#" class="image avatar"><img src="./notes_files/avatar.jpg" alt=""></a>
-				<h1><strong>Son Tu</strong><br> </h1>
-		      	<ul class="menu">
-			        <li><a href="https://people.math.wisc.edu/~thaison/index">Home</a></li>
-			        <li><a href="https://people.math.wisc.edu/~thaison/research">Research</a></li>
-			        <!-- <li><a href="award">Award</a></li> -->
-			        <!-- <li><a href="resume">Resume</a></li> -->
-				
-			        <font color="blue"><li>Notes</li></font>
-					<li><a href="https://people.math.wisc.edu/~thaison/teaching">Teaching</a></li>
-					<!-- <li><a href="gallery">Gallery</a></li> -->
-			        <!-- <li class="last"><a href="hobby">Hobbies</a></li> -->
-		      	</ul>
-				
-				<style>
-				p.serif {
-					font-family: "Times New Roman", Times, serif;
-				}
-
-				p.sansserif {
-					font-family: Arial, Helvetica, sans-serif;
-				}
-				
-				
-				p.small {
-							font-variant: small-caps;
-						}
-				</style>
-				
-			</header>
-
-		<!-- Main -->
-			<div id="main">
-
-				<!-- One -->
-					<section id="one">
-					
-						<h1>Selected Notes</h1>
-						
-						<h3> MISCELLANEOUS NOTES </h3>
-						
-						<ul>
-							<li><a href="https://people.math.wisc.edu/~thaison/Notes/Math807.pdf" target="_blank"> <em>Lecture notes on Weak KAM theory (incomplete notes) </em></a><br>
-							(May 4, 2021) </li>
-				
-							<li><a href="https://people.math.wisc.edu/~thaison/Notes/Numerics.pdf" target="_blank"> <em>Some notes on Finite Difference Schemes for Hamilton--Jacobi equation</em></a><br>
-							(December 24, 2027) </li>
-							<li><a href="https://people.math.wisc.edu/~thaison/Notes/Fourier.pdf" target="_blank">
-							<em>A note on Fourier-Stieltjes transforms and almost-periodic functions</em></a><br> 
-							(January 17, 2017) </li> 
-							<li><a href="https://people.math.wisc.edu/~thaison/Notes/Applied_Qual.pdf" target="_blank"> <em>Applied Math Qualifying exam </em></a><br>
-							(August 28, 2017) </li>
-						</ul>
-						<!-- <h3><a href="some_examples_of_pde" target="_blank">SOME PDE EXAMPLES</a></h3> -->
-						
-						
-						
-
-						
-
-						
-						<br>
-					
-						These are some notes I have taken through my undergraduate study.
-						
-						
-						<h3>LECTURE NOTE ON HOMOGENIZATION</h3> 
-						<ul>(July 14, 2015.)<br>
-						In summer 2015, while attending a summer course at the University of Science, Vietnam National University, HCMC, <a href="http://sonv.github.io/" target="_blank">Son P.T. Van</a> and I wrote lecture notes for this course. 
-						<ul><li><strong>Topic: </strong><a href="https://people.math.wisc.edu/~thaison/Notes/summer2015.pdf" target="_blank"> <em>"Homogenization for viscosity solutions of Hamilton - Jacobi equations."</em></a></li><a href="https://people.math.wisc.edu/~thaison/Notes/summer2015.pdf" target="_blank"> 
-						    </a><li><a href="https://people.math.wisc.edu/~thaison/Notes/summer2015.pdf" target="_blank"><strong>Instructor:</strong> </a><a href="http://www.math.wisc.edu/~hung/" target="_blank">Hung V. Tran</a><!-- Assistant Proffessor in the Department of Mathmatics, UW - Madison.--></li> 
-					  </ul></ul>
-
-						<h3>UNDERGRADUATE THESIS</h3>
-						<ul>(May 31, 2015.)<br>
-						<ul><li><strong>Topic: </strong><a href="https://people.math.wisc.edu/~thaison/Notes/undergradthesis.pdf" target="_blank"><em>"Linear control systems and the regularity of the minimum time functions."</em></a></li>
-						    <li><strong>Supervisor:</strong> <a href="http://www4.ncsu.edu/~tnguye13/" target="_blank">Khai T. Nguyen</a> <!-- Assistant Professor in the Department of Mathematics, NCSU.--></li> 
-						<!-- <a href="http://www.cse.hcmut.edu.vn/site/en/" target="_blank">Ho Chi Minh City University of Technology, Vietnam</a>
-						<br/><a href="http://www.pasteurhcm.gov.vn/" target="_blank">Pasteur Institute at Ho Chi Minh City, Ministry of Health, Vietnam</a> -->
-						    <li><strong>Abstract:</strong> Consider the linear control system <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mstyle displaystyle=&quot;true&quot; scriptlevel=&quot;0&quot;&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;&amp;#x2032;&lt;/mo&gt;&lt;/msup&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;B&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mstyle&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 11.357em; display: inline-block;"><span style="display: inline-block; position: relative; width: 9.43em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.148em, 1009.33em, 2.555em, -999.997em); top: -2.133em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mstyle" id="MathJax-Span-3"><span class="mrow" id="MathJax-Span-4"><span class="msup" id="MathJax-Span-5"><span style="display: inline-block; position: relative; width: 0.836em; height: 0px;"><span style="position: absolute; clip: rect(3.44em, 1000.52em, 4.169em, -999.997em); top: -4.008em; left: 0em;"><span class="mi" id="MathJax-Span-6" style="font-family: MathJax_Math-italic;">x</span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span><span style="position: absolute; top: -4.424em; left: 0.576em;"><span class="mo" id="MathJax-Span-7" style="font-size: 70.7%; font-family: MathJax_Main;">′</span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span></span></span><span class="mo" id="MathJax-Span-8" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-9" style="font-family: MathJax_Math-italic;">t</span><span class="mo" id="MathJax-Span-10" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-11" style="font-family: MathJax_Main; padding-left: 0.263em;">=</span><span class="mi" id="MathJax-Span-12" style="font-family: MathJax_Math-italic; padding-left: 0.263em;">A</span><span class="mi" id="MathJax-Span-13" style="font-family: MathJax_Math-italic;">x</span><span class="mo" id="MathJax-Span-14" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-15" style="font-family: MathJax_Math-italic;">t</span><span class="mo" id="MathJax-Span-16" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-17" style="font-family: MathJax_Main; padding-left: 0.211em;">+</span><span class="mi" id="MathJax-Span-18" style="font-family: MathJax_Math-italic; padding-left: 0.211em;">B</span><span class="mi" id="MathJax-Span-19" style="font-family: MathJax_Math-italic;">u</span><span class="mo" id="MathJax-Span-20" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-21" style="font-family: MathJax_Math-italic;">t</span><span class="mo" id="MathJax-Span-22" style="font-family: MathJax_Main;">)</span></span></span></span><span style="display: inline-block; width: 0px; height: 2.138em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.372em; border-left: 0px solid; width: 0px; height: 1.378em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="true" scriptlevel="0"><msup><mi>x</mi><mo>′</mo></msup><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo>=</mo><mi>A</mi><mi>x</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo>+</mo><mi>B</mi><mi>u</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mstyle></math></span></span><script type="math/tex" id="MathJax-Element-1">\displaystyle x'(t) = Ax(t) + Bu(t) </script> with the target <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-23" style="width: 0.628em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.523em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.305em, 1000.47em, 2.294em, -999.997em); top: -2.133em; left: 0em;"><span class="mrow" id="MathJax-Span-24"><span class="texatom" id="MathJax-Span-25"><span class="mrow" id="MathJax-Span-26"><span class="mn" id="MathJax-Span-27" style="font-family: MathJax_Main;">0</span></span></span></span><span style="display: inline-block; width: 0px; height: 2.138em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.941em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow class="MJX-TeXAtom-ORD"><mn>0</mn></mrow></math></span></span><script type="math/tex" id="MathJax-Element-2">{0}</script>. The
-										function <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-28" style="width: 2.451em; display: inline-block;"><span style="display: inline-block; position: relative; width: 2.034em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.253em, 1001.93em, 2.555em, -999.997em); top: -2.133em; left: 0em;"><span class="mrow" id="MathJax-Span-29"><span class="mi" id="MathJax-Span-30" style="font-family: MathJax_Math-italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.107em;"></span></span><span class="mo" id="MathJax-Span-31" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-32" style="font-family: MathJax_Math-italic;">x</span><span class="mo" id="MathJax-Span-33" style="font-family: MathJax_Main;">)</span></span><span style="display: inline-block; width: 0px; height: 2.138em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.372em; border-left: 0px solid; width: 0px; height: 1.316em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-3">T(x)</script> is the minimum time needed to steer a point <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-34" style="width: 0.732em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.576em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.565em, 1000.52em, 2.294em, -999.997em); top: -2.133em; left: 0em;"><span class="mrow" id="MathJax-Span-35"><span class="mi" id="MathJax-Span-36" style="font-family: MathJax_Math-italic;">x</span></span><span style="display: inline-block; width: 0px; height: 2.138em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.691em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi></math></span></span><script type="math/tex" id="MathJax-Element-4">x</script> to <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-37" style="width: 0.628em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.523em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.305em, 1000.47em, 2.294em, -999.997em); top: -2.133em; left: 0em;"><span class="mrow" id="MathJax-Span-38"><span class="texatom" id="MathJax-Span-39"><span class="mrow" id="MathJax-Span-40"><span class="mn" id="MathJax-Span-41" style="font-family: MathJax_Main;">0</span></span></span></span><span style="display: inline-block; width: 0px; height: 2.138em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.941em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow class="MJX-TeXAtom-ORD"><mn>0</mn></mrow></math></span></span><script type="math/tex" id="MathJax-Element-5">{0}</script>. It is well-known that under
-										the Rank-Kalman condition, <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-6-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-42" style="width: 0.836em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.68em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.305em, 1000.68em, 2.294em, -999.997em); top: -2.133em; left: 0em;"><span class="mrow" id="MathJax-Span-43"><span class="mi" id="MathJax-Span-44" style="font-family: MathJax_Math-italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.107em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.138em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.941em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi></math></span></span><script type="math/tex" id="MathJax-Element-6">T</script> is just continuous in the reachable set. Our main goal is to study
-										the regularity of <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-7-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-45" style="width: 2.451em; display: inline-block;"><span style="display: inline-block; position: relative; width: 2.034em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.253em, 1001.93em, 2.555em, -999.997em); top: -2.133em; left: 0em;"><span class="mrow" id="MathJax-Span-46"><span class="mi" id="MathJax-Span-47" style="font-family: MathJax_Math-italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.107em;"></span></span><span class="mo" id="MathJax-Span-48" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-49" style="font-family: MathJax_Math-italic;">x</span><span class="mo" id="MathJax-Span-50" style="font-family: MathJax_Main;">)</span></span><span style="display: inline-block; width: 0px; height: 2.138em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.372em; border-left: 0px solid; width: 0px; height: 1.316em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-7">T(x)</script>. We prove that <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-8-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-51" style="width: 0.836em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.68em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.305em, 1000.68em, 2.294em, -999.997em); top: -2.133em; left: 0em;"><span class="mrow" id="MathJax-Span-52"><span class="mi" id="MathJax-Span-53" style="font-family: MathJax_Math-italic;">T<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.107em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.138em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.941em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi></math></span></span><script type="math/tex" id="MathJax-Element-8">T</script> is a.e. twice differentiable. Moreover, we also obtain an
-										explicit formula for the set of singularities where the optimal control changes its sign. </li>
-							<!-- <li><strong>Result:</strong> Our proposed method obtains a higher accuracy than the conventional models of time series, linear regression, and ARIMA. Moreover, this provides the first research results about dengue prediction in Vietnam. We also build successfully a dengue surveillance system for 6 southern provinces.</li>
-							<li><strong>Supervisor</strong>: <a href="http://cse.hcmut.edu.vn/~tru/" target="_blank">Tru H. Cao, Prof.</a></li> -->
-						
-						
-
-						</ul></ul></section>
-
-
-					<!-- Start of StatCounter Code for Default Guide -->
-							<script type="text/javascript">
-							var sc_project=11219527; 
-							var sc_invisible=0; 
-							var sc_security="8ef86b9e"; 
-							var scJsHost = (("https:" == document.location.protocol) ?
-							"https://secure." : "http://www.");
-							document.write("<sc"+"ript type='text/javascript' src='" +
-							scJsHost+
-							"statcounter.com/counter/counter.js'></"+"script>");
-							</script><script type="text/javascript" src="./notes_files/counter.js.download"></script>
-							<noscript><div class="statcounter"><a title="real time web
-							analytics" href="http://statcounter.com/"
-							target="_blank"><img class="statcounter"
-							src="//c.statcounter.com/11219527/0/8ef86b9e/0/" alt="real
-							time web analytics"></a></div></noscript>
-							<!-- End of StatCounter Code for Default Guide -->
-
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer">
-
-			</footer>
-
-		<!-- Scripts -->
-			<script src="./notes_files/jquery.min.js.download"></script>
-			<script src="./notes_files/jquery.poptrox.min.js.download"></script>
-			<script src="./notes_files/skel.min.js.download"></script>
-			<script src="./notes_files/util.js.download"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="./notes_files/main.js.download"></script>
-			<script src="./notes_files/MathJax.js(1).download"></script>
-			
-		
-			
-			<a href="https://clustrmaps.com/site/19yv1" title="">
-			<img src="./notes_files/map_v2.png" style="display:none"></a>
-
-	
-
-<div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: MathJax_Main, sans-serif;"></div></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
+<h3>MISCELLANEOUS NOTES</h3>
+<ul>
+<li>
+<p><em><a href="notes/Math807.pdf">Lecture notes on Weak KAM theory (incomplete notes)</a></em><br>
+  (May 4, 2021)</p>
+</li>
+<li>
+<p><em><a href="notes/Numerics.pdf">Some notes on Finite Difference Schemes for Hamilton-Jacobi equation</a></em><br>
+  (December 24, 2027)</p>
+</li>
+<li>
+<p><em><a href="notes/Fourier.pdf">A note on Fourier-Stieltjes transforms and almost-periodic functions</a></em><br>
+  (January 17, 2017)</p>
+</li>
+<li>
+<p><em><a href="notes/Applied_Qual.pdf">Applied Math Qualifying exam</a></em> <br>
+  (August 28, 2017)</p>
+</li>
+</ul>
+<hr />
+<p>These are some notes I have taken through my undergraduate study.</p>
+<h3>LECTURE NOTE ON HOMOGENIZATION</h3>
+<p>(July 14, 2015)<br>
+In summer 2015, while attending a summer course at the University of Science, Vietnam National University,
+HCMC, <a href="#http://sonv.github.io/">Son P.T. Van</a> and I wrote lecture notes for this course.</p>
+<ul>
+<li>
+<p><strong>Topic:</strong> <em><a href="notes/summer2015.pdf">Homogenization for viscosity solutions of Hamilton - Jacobi equations</a></em></p>
+</li>
+<li>
+<p><strong>Instructor:</strong> <a href="#http://www.math.wisc.edu/~hung/">Hung V. Tran</a></p>
+</li>
+</ul>
+<h3>UNDERGRADUATE THESIS</h3>
+<p>(May 31, 2015)<br></p>
+<ul>
+<li>
+<p><strong>Topic:</strong> <em>Linear control systems and the regularity of the minimum time functions</em></p>
+</li>
+<li>
+<p><strong>Advisor:</strong> <a href="#https://tnguye13.math.ncsu.edu/">Khai T. Nguyen</a></p>
+</li>
+<li>
+<p><strong>Abstract:</strong> Consider the linear control system <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo>=</mo><mi>A</mi><mi>x</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo>+</mo><mi>B</mi><mi>u</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">x(t)=Ax(t)+Bu(t)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">x</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">A</span><span class="mord mathnormal">x</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mord mathnormal">u</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span></span></span></span> with the target <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>. The function <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>T</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">T(x)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span></span></span></span> is
+  the minimum time needed to steer a point <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span> to <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>. It is well-known that under the Rank-Kalman condition, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>T</mi></mrow><annotation encoding="application/x-tex">T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span></span></span></span>
+  is just continuous in the reachable set. Our main goal is to study the regularity of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>T</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">T(x)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span></span></span></span>. We prove that <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>T</mi></mrow><annotation encoding="application/x-tex">T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span></span></span></span> is
+  a.e. twice differentiable. Moreover, we also obtain an explicit formula for the set of singularities where the optimal
+  control changes its sign.</p>
+</li>
+</ul>
         </article>
         
     </body>

@@ -1,5 +1,6 @@
 ---
-title: Notes subtitle: A collection of notes taken during my journey.
+title: Notes 
+subtitle: A collection of notes taken during my journey.
 ---
 
 <!-- ## Selected Notes -->
