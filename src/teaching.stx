@@ -1,52 +1,16 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Teaching</title>
-        <link rel="stylesheet" href="assets/fonts.css">
-        <link rel="stylesheet" href="assets/simplify.css">
-        <link rel="stylesheet" href="assets/pygments.css">
-        
-        
-    </head>
-    <body class="node-teaching node">
-        <header class="masthead">
-            <h1><a href="index.html">Thai-Son Tu</a></h1>
-            
-                <p class="tagline">Từ Nguyễn Thái Sơn</p>
-            
-            
-            <nav class="menu">
-                <input id="menu-check" type="checkbox"/>
-                <label id="menu-label" for="menu-check" class="unselectable">
-                    <span class="icon close-icon">✕</span>
-                    <span class="icon open-icon">☰</span>
-                    <span class="text">Menu</span>
-                </label>
-                <ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="research.html">Research</a></li>
-<li><a href="teaching.html">Teaching</a>
-    <!-- * <a href="teaching/child-one.html">Child One</a> -->
-    <!-- * <a href="teaching/child-two.html">Child Two</a> --></li>
-<li><a href="notes.html">Notes</a></li>
-<li><a href="about.html">About</a></li>
-</ul>
-            </nav>
-        </header>
-        <article class="main">
-            <header class="title">
-                <h1>Teaching</h1>
-                
-                <hr>
-            </header>
-            <h3 id="instructor-university-of-wisconsin-madison">
-Instructor University of Wisconsin - Madison
-</h3>
-<h3 id="teaching-assistant-university-of-wisconsin-madison">
-Teaching Assistant University of Wisconsin - Madison
-</h3>
+---
+title: Teaching
+---
+
+
+### Instructor University of Wisconsin - Madison
+
+
+
+### Teaching Assistant University of Wisconsin - Madison
+
+
+
 <h3>  <a href="https://people.math.wisc.edu/~thaison/spring_2021.html"> <font color="blue">Spring 2021 - Math 619 - Grader</font></a><font color="blue">  </font></h3><font color="blue">
 <h3>  <a href="https://people.math.wisc.edu/~thaison/fall_2019.html"> <font color="blue">Fall 2019 - Math 112 (Evaluation: Superior)</font></a><font color="blue">  </font></h3><font color="blue">
 <h3>  <a href="https://people.math.wisc.edu/~thaison/fall_2020.html"> <font color="blue">Fall 2020 - Math 211</font></a><font color="blue">  </font></h3><font color="blue">
@@ -58,10 +22,6 @@ Teaching Assistant University of Wisconsin - Madison
 <h3>  <a href="https://people.math.wisc.edu/~thaison/summer_2017.html"> <font color="blue">Summer 2017 - Undergrad PDE summer school </font></a><font color="blue">  </font></h3><font color="blue">
 <h3>  <a href="https://people.math.wisc.edu/~thaison/spring_2017.html"> <font color="blue">Spring 2017 - Math 211 </font></a><font color="blue">  </font></h3><font color="blue">
 <h3>  <a href="https://people.math.wisc.edu/~thaison/fall_2016.html"> <font color="blue">Fall 2016 - Math 222 </font></a><font color="blue">  </font></h3><font color="blue">
-<h6 id="spring-2021-math-619-grader">
-<a href="https://people.math.wisc.edu/~thaison/spring_2021.html">Spring 2021 - Math 619 - Grader</a>
-</h6>
-        </article>
-        
-    </body>
-</html>
+
+
+###### [Spring 2021 - Math 619 - Grader](https://people.math.wisc.edu/~thaison/spring_2021.html)
