@@ -21,6 +21,10 @@
     flex-grow: 1;
 }
 
+.h3-list {
+    padding-left: 1.5em;
+}
+
 .half50 {
     width: 50%;
     /* Grow at a rate of 1 if there is room for me to do so!*/
@@ -83,7 +87,6 @@ div.image > p > img {
   grid-template-rows: inherit;
   opacity: 1;
 }
-
 
 
 
@@ -180,6 +183,8 @@ h3, h4, h5, h6 {
     font-size: 19px;
     font-weight: bold;
 }
+
+
 
 p {
     margin: 10px 0 0 0;
@@ -344,6 +349,7 @@ body {
     width: 360px;
     padding: 20px 50px;
     float: left;
+    position: fixed;
 }
 
 .main {
@@ -596,6 +602,7 @@ body.extra-deflist-vspace dt {
     margin-top: 80px;
 }
 
+
 /**
  * -------------------------------------------------------------------------
  *  Media Queries
@@ -621,6 +628,7 @@ body.extra-deflist-vspace dt {
         margin-right: 40px;
         border-top: 3px solid black;
         border-bottom: 3px solid black;
+        position: relative;
     }
 
     .main {
